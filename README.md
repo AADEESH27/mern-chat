@@ -13,8 +13,7 @@ A MERN stack messenger app I am building for me and my friends as we are afraid 
 The client side of my app uses React JS for UI creation, CSS for styling and React-Router-Dom for routing.
 I am also using Material-UI library to fetch some icons and prebuilt components.
 
-#Backend
-Certainly! Here's your description presented in a more organized manner:
+# Backend
 
 **Building a Server-Side Application with Node.js, Express.js, and MongoDB**
 
