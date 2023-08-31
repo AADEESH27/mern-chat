@@ -9,7 +9,6 @@ import {
 import logo from "../Logo/messenger.png";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { Toaster } from "react-hot-toast";
 
 const Login = () => {
   const [showLogin, setShowLogin] = useState(false);

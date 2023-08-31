@@ -5,10 +5,13 @@ const dotenv = require("dotenv");
 const connectDb = require("../server/config/connectDB");
 const userRoutes = require("./routes/userRoutes");
 const cors = require("cors");
+const bodyParser = require("body-parser");
 
+app.use(bodyParser.json());
 app.use(cors());
 app.use(express.json());
 dotenv.config();
+
 connectDb();
 app.get("/", (req, res) => {
   res.send("Hello");
