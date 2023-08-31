@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../Logo/messenger.png";
 import { IconButton } from "@mui/material";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
-import { AnimatePresence, anticipate, motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 const onlineUsers = () => {
   return (

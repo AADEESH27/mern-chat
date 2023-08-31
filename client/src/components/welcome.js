@@ -1,6 +1,13 @@
 import React from "react";
 import logo from "../Logo/messenger.png";
+import { useNavigate } from "react-router-dom";
 const welcome = () => {
+  const navigate = useNavigate;
+  const userData = JSON.parse(localStorage.getItem("userData"));
+  if (!userData) {
+    console.log("User not authenticated");
+    navigate("/");
+  }
   return (
     <div className="welcome-container">
       <img src={logo} alt="Logo" className="welcome-logo" />
